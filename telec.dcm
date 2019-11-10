@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8231
+D Zero Drift, Digitally Programmable Instrumentation Amplifier
+K opamp
+$ENDCMP
+#
+$CMP LTC1992
+D Low Power, Fully Differential Input/Output Amplifier/Driver
+K single differential opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6362fa.pdf
+$ENDCMP
+#
+$CMP LTC2315
+D 12-Bit, 5Msps Serial  Sampling ADC
+K adc
+$ENDCMP
+#
+#End Doc Library

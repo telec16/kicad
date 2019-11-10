@@ -1,0 +1,15 @@
+res/
+
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!README.md
+
+!logo.*/*
+!telec.*/*
+!telec.*
+
+# ...even if they are in subdirectories
+!*/

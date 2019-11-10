@@ -1,0 +1,32 @@
+(module castellated_1x03_P2.54mm (layer F.Cu) (tedit 5D65754D)
+  (fp_text reference REF** (at 0 -1.5875) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value castellated_1x03_P2.54mm (at 0 -3.175) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.3655 0) (end 3.81 0) (layer F.SilkS) (width 0.05))
+  (fp_line (start -3.3655 -0.889) (end 3.81 -0.889) (layer F.SilkS) (width 0.05))
+  (fp_line (start -1.27 -0.889) (end -1.27 0) (layer F.SilkS) (width 0.05))
+  (fp_line (start 1.27 -0.889) (end 1.27 0) (layer F.SilkS) (width 0.05))
+  (fp_line (start 3.81 -0.889) (end 3.81 0) (layer F.SilkS) (width 0.05))
+  (fp_arc (start -3.3655 -0.4445) (end -3.3655 -0.889) (angle -180) (layer F.SilkS) (width 0.05))
+  (pad 2 thru_hole custom (at 0 0) (size 0.78 0.78) (drill 0.762) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.762 -0.635) (xy -0.762 -0.635) (xy -0.762 0.0635) (xy 0.762 0.0635)) (width 0.05))
+    ))
+  (pad 1 thru_hole custom (at -2.54 0) (size 0.78 0.78) (drill 0.762) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.762 -0.635) (xy -0.762 -0.635) (xy -0.762 0.0635) (xy 0.762 0.0635)) (width 0.05))
+    ))
+  (pad 3 thru_hole custom (at 2.54 0) (size 0.78 0.78) (drill 0.762) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 0.762 -0.635) (xy -0.762 -0.635) (xy -0.762 0.0635) (xy 0.762 0.0635)) (width 0.05))
+    ))
+)
