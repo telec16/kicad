@@ -5,6 +5,30 @@ D Zero Drift, Digitally Programmable Instrumentation Amplifier
 K opamp
 $ENDCMP
 #
+$CMP DG468
+D Low Power, High Voltage SPST Analog Switches, normally OFF, 10Ohm Ron, TSOP-6
+K CMOS Analog Switch
+F https://www.mouser.fr/datasheet/2/427/dg467-1766083.pdf
+$ENDCMP
+#
+$CMP DG470
+D High Voltage, Single and Dual Supply SPDT Analog Switch with Enable Pin, 3.6Ohm Ron
+K CMOS Analog Switch
+F https://www.mouser.fr/datasheet/2/427/dg469-1765946.pdf
+$ENDCMP
+#
+$CMP LT1210
+D 1.1A, 35MHz Current Feedback Amplifier
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1210.pdf
+$ENDCMP
+#
+$CMP LT1224
+D Very High Speed Operational Amplifier, DIP-8/SOIC-8
+K single opamp
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1224.pdf
+$ENDCMP
+#
 $CMP LTC1992
 D Low Power, Fully Differential Input/Output Amplifier/Driver
 K single differential opamp
@@ -14,6 +38,17 @@ $ENDCMP
 $CMP LTC2315
 D 12-Bit, 5Msps Serial  Sampling ADC
 K adc
+$ENDCMP
+#
+$CMP MAX314CSE
+D Quad SPST CMOS Analog Switches, normally 2xON + 2xOFF, 6.5Ohm Ron, SOIC-16
+K CMOS Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX312-MAX314.pdf
+$ENDCMP
+#
+$CMP QSPI_flash
+D SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI
 $ENDCMP
 #
 #End Doc Library
