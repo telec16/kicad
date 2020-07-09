@@ -17,6 +17,11 @@ K CMOS Analog Switch
 F https://www.mouser.fr/datasheet/2/427/dg469-1765946.pdf
 $ENDCMP
 #
+$CMP ESP32-PICO-D4
+D ESP32 SiP, 4MB flash
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 $CMP LT1210
 D 1.1A, 35MHz Current Feedback Amplifier
 K single opamp
@@ -27,12 +32,6 @@ $CMP LT1224
 D Very High Speed Operational Amplifier, DIP-8/SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1224.pdf
-$ENDCMP
-#
-$CMP LT1224_copy
-D Single High Speed Operational Amplifier, DIP-8/SOIC-8
-K single opamp
-F http://www.ti.com/lit/ds/symlink/lm6161.pdf
 $ENDCMP
 #
 $CMP LTC1992

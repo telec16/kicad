@@ -17,6 +17,11 @@ K CMOS Analog Switch
 F https://www.mouser.fr/datasheet/2/427/dg469-1765946.pdf
 $ENDCMP
 #
+$CMP ESP32-PICO-D4
+D ESP32 SiP, 4MB flash
+F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
+$ENDCMP
+#
 $CMP LT1210
 D 1.1A, 35MHz Current Feedback Amplifier
 K single opamp
@@ -49,6 +54,11 @@ $ENDCMP
 $CMP QSPI_flash
 D SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
 K SPI DSPI QSPI
+$ENDCMP
+#
+$CMP RFECA3216060A1T
+D 2.4 GHz ISM Band Working Frequency Antenna
+F https://datasheet.lcsc.com/szlcsc/1808272258_Walsin-Tech-Corp-RFECA3216060A1T_C127620.pdf
 $ENDCMP
 #
 #End Doc Library
