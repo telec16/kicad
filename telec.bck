@@ -56,4 +56,9 @@ D SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
 K SPI DSPI QSPI
 $ENDCMP
 #
+$CMP RFECA3216060A1T
+D 2.4 GHz ISM Band Working Frequency Antenna
+F https://datasheet.lcsc.com/szlcsc/1808272258_Walsin-Tech-Corp-RFECA3216060A1T_C127620.pdf
+$ENDCMP
+#
 #End Doc Library
