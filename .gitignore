@@ -8,9 +8,10 @@ res/
 !README.md
 
 !DRC/*
+!template/*
 !logo.*/*
 !telec.*/*
 !telec.*
 
 # ...even if they are in subdirectories
-!*/
+#!*/
