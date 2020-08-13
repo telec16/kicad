@@ -1,5 +1,3 @@
-res/
-
 # Ignore everything
 *
 
@@ -7,11 +5,14 @@ res/
 !.gitignore
 !README.md
 
-!DRC/*
-!template/*
-!logo.*/*
-!telec.*/*
-!telec.*
+!./DRC/*
+!./template/*
+!./logo.*/*
+!./logo.*
+!./telec.*/*
+!./telec.*
 
 # ...even if they are in subdirectories
 #!*/
+
+res/*
