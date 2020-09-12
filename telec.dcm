@@ -23,6 +23,12 @@ K CMOS Analog Switch
 F https://www.mouser.fr/datasheet/2/427/dg469-1765946.pdf
 $ENDCMP
 #
+$CMP DMMT3904
+D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
+K Dual NPN/NPN Transistor
+F https://www.mccsemi.com/pdf/Products/DMMT3904(SOT-363).PDF
+$ENDCMP
+#
 $CMP ESP32-PICO-D4
 D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
