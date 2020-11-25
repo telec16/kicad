@@ -68,6 +68,7 @@
 * TRACO_DUAL
 * TRACO_SINGLE
 * JCB_2x3_2x4
+* RAC10-K-277
 * B65816
 * Relay_1-Form-A_Schrack-RYII_RM5mm
 * relay_SPDT_double
@@ -88,11 +89,28 @@
 * AVAGO_HFBR
 * BNC_Right_angled
 * BNC_Straight
+* EuroPower
+* Needles_5mm
+* Needles_5mm_linked
+* PinHeader_1x01_P2.54mm_Vertical_NoMask
+* PinHeader_1x02_P2.54mm_Vertical_NoMask
+* PJ-611C
+* PLCC-32_THT-Socket
+* VGA_side
 
-### Others
-* PTV09A
+### Displays
+* Display_3digits_15mm
 * NOKIA_3310_LCD
-* LM-LP-1001
+
+### Passive
+* CP_Radial_D12.5mm_P7.50mm_horizontal
+* C_Rect_L31.5mm_W22mm_P27.5mm
+* C_Rect_L42mm_W30mm_P37.5mm_P20.3mm
+* capa_M5
+* R_2512_4WIRE
+* Potentiometer_P3.81mmx5.12mm_Vertical
+* RFECA3216060A1T
+
 ### PCB
 * castellated_1x02_P5.08mm
 * castellated_1x03_P2.54mm
@@ -101,16 +119,27 @@
 * conn_modular_testboard
 * SOIC-10_P1.00mm
 * SOT-227
+* Jack_Hole_Round
+* Jack_Hole_Square
+* Potentiometer_Single_Vertical_Hole
 
-### Passive
-* CP_Radial_D12.5mm_P7.50mm_horizontal
-* C_Rect_L31.5mm_W22mm_P27.5mm
-* C_Rect_L42mm_W30mm_P37.5mm_P20.3mm
-* capa_M5
-* R_2512_4WIRE
+### Others
+* PTV09A
+* LM-LP-1001
+* LiPO_150m
+
 
 # logo
+
+## Companies
 * Caly technologies
 * Supergrid
+* Ampere
+* LaMCoS
+
+## Peoples
+* telec
+
+## Others
 * RMS
 
