@@ -34,6 +34,12 @@ D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
+$CMP LT0565xWK
+D 3 digit 7 segment LED, common cathode
+K display LED 7-segment
+F http://www.farnell.com/datasheets/2863914.pdf
+$ENDCMP
+#
 $CMP LT1210
 D 1.1A, 35MHz Current Feedback Amplifier
 K single opamp
@@ -66,6 +72,12 @@ $ENDCMP
 $CMP QSPI_flash
 D SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
 K SPI DSPI QSPI
+$ENDCMP
+#
+$CMP RAC10-K-277
+D 3.3-15V, 10W, Isolated, AC-DC
+K Miniature Module-type Power Supply Recom
+F http://www.farnell.com/datasheets/2787671.pdf
 $ENDCMP
 #
 $CMP RFECA3216060A1T

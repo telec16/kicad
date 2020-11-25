@@ -11,24 +11,6 @@ D Zero Drift, Digitally Programmable Instrumentation Amplifier
 K opamp
 $ENDCMP
 #
-$CMP BC846BDW1
-D 100mA IC, 65V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
-$ENDCMP
-#
-$CMP BC847BDW1
-D 100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF
-$ENDCMP
-#
-$CMP BC847BS
-D 100mA IC, 45V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://assets.nexperia.com/documents/data-sheet/BC847BS.pdf
-$ENDCMP
-#
 $CMP DG468
 D Low Power, High Voltage SPST Analog Switches, normally OFF, 10Ohm Ron, TSOP-6
 K CMOS Analog Switch
@@ -52,22 +34,58 @@ D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
-$CMP FFB2222A
-D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://www.fairchildsemi.com/datasheets/FF/FFB2222A.pdf
+$CMP IRM-10-12
+D 12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
 $ENDCMP
 #
-$CMP FFB3904
-D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://www.fairchildsemi.com/datasheets/FF/FFB3904.pdf
+$CMP IRM-10-12_copy
+D 12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
 $ENDCMP
 #
-$CMP FFB5551
-D 200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://www.fairchildsemi.com/datasheets/FF/FFB5551.pdf
+$CMP IRM-10-15
+D 15V, 670mA, 10.05W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-10-15_copy
+D 15V, 670mA, 10.05W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-10-24
+D 24V, 420mA, 10.08W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-10-24_copy
+D 24V, 420mA, 10.08W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-10-5
+D 5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP IRM-10-5_copy
+D 5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$ENDCMP
+#
+$CMP LT0565xWK
+D 3 digit 7 segment LED, common cathode
+K display LED 7-segment
+F http://www.farnell.com/datasheets/2863914.pdf
 $ENDCMP
 #
 $CMP LT1210
@@ -99,57 +117,21 @@ K CMOS Analog Switch
 F https://datasheets.maximintegrated.com/en/ds/MAX312-MAX314.pdf
 $ENDCMP
 #
-$CMP MBT2222ADW1T1
-D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF
-$ENDCMP
-#
-$CMP MBT3904DW1
-D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.onsemi.com/pub_link/Collateral/MBT3904DW1T1-D.PDF
-$ENDCMP
-#
-$CMP MMDT2222A
-D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.diodes.com/_files/datasheets/ds30125.pdf
-$ENDCMP
-#
-$CMP MMDT3904
-D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.diodes.com/_files/datasheets/ds30088.pdf
-$ENDCMP
-#
-$CMP MMDT5551
-D 200mA IC, 160V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F http://www.diodes.com/_files/datasheets/ds30172.pdf
-$ENDCMP
-#
-$CMP PMBT2222AYS
-D 600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://assets.nexperia.com/documents/data-sheet/PMBT2222AYS.pdf
-$ENDCMP
-#
-$CMP PMBT3904YS
-D 200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://assets.nexperia.com/documents/data-sheet/PMBT3904YS.pdf
-$ENDCMP
-#
-$CMP PUMX1
-D 100mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363
-K NPN/NPN Transistor
-F https://assets.nexperia.com/documents/data-sheet/PUMX1.pdf
-$ENDCMP
-#
 $CMP QSPI_flash
 D SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
 K SPI DSPI QSPI
+$ENDCMP
+#
+$CMP RAC10-K-277
+D 3.3-15V, 10W, Isolated, AC-DC
+K Miniature Module-type Power Supply Recom
+F http://www.farnell.com/datasheets/2787671.pdf
+$ENDCMP
+#
+$CMP RAC10-K-277_copy
+D 3.3V, 2.5A, 8.25W, Isolated, AC-DC, 222A(IRM10)
+K Miniature Module-type Power Supply MeanWell
+F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
 $ENDCMP
 #
 $CMP RFECA3216060A1T
