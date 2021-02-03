@@ -34,52 +34,9 @@ D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
-$CMP IRM-10-12
-D 12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-12_copy
-D 12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-15
-D 15V, 670mA, 10.05W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-15_copy
-D 15V, 670mA, 10.05W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-24
-D 24V, 420mA, 10.08W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-24_copy
-D 24V, 420mA, 10.08W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-5
-D 5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
-$ENDCMP
-#
-$CMP IRM-10-5_copy
-D 5V, 2A, 10W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
+$CMP HT9200A
+D Serial DTMF Generator
+F http://www.farnell.com/datasheets/1738900.pdf
 $ENDCMP
 #
 $CMP LT0565xWK
@@ -126,12 +83,6 @@ $CMP RAC10-K-277
 D 3.3-15V, 10W, Isolated, AC-DC
 K Miniature Module-type Power Supply Recom
 F http://www.farnell.com/datasheets/2787671.pdf
-$ENDCMP
-#
-$CMP RAC10-K-277_copy
-D 3.3V, 2.5A, 8.25W, Isolated, AC-DC, 222A(IRM10)
-K Miniature Module-type Power Supply MeanWell
-F https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF
 $ENDCMP
 #
 $CMP RFECA3216060A1T

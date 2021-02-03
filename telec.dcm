@@ -34,6 +34,11 @@ D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
+$CMP HT9200A
+D Serial DTMF Generator
+F http://www.farnell.com/datasheets/1738900.pdf
+$ENDCMP
+#
 $CMP LT0565xWK
 D 3 digit 7 segment LED, common cathode
 K display LED 7-segment
