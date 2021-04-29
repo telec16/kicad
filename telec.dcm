@@ -39,6 +39,12 @@ D Serial DTMF Generator
 F http://www.farnell.com/datasheets/1738900.pdf
 $ENDCMP
 #
+$CMP LD0565SxWK
+D 3 digit 7 segment LED, common cathode
+K display LED 7-segment
+F http://www.farnell.com/datasheets/2863914.pdf
+$ENDCMP
+#
 $CMP LT0565xWK
 D 3 digit 7 segment LED, common cathode
 K display LED 7-segment
