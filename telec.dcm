@@ -34,6 +34,11 @@ D ESP32 SiP, 4MB flash
 F https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_datasheet_en.pdf
 $ENDCMP
 #
+$CMP FS312F-G
+D One Cell Lithium-ion/Polymer Battery protection IC
+F https://datasheet.lcsc.com/lcsc/1811151452_Fortune-Semicon-FS312F-G_C82736.pdf
+$ENDCMP
+#
 $CMP HT9200A
 D Serial DTMF Generator
 F http://www.farnell.com/datasheets/1738900.pdf
@@ -43,6 +48,11 @@ $CMP LD0565SxWK
 D 3 digit 7 segment LED, common cathode
 K display LED 7-segment
 F http://www.farnell.com/datasheets/2863914.pdf
+$ENDCMP
+#
+$CMP HY2213-xB3y
+D 1 Cell Li Battery Charge Balance IC
+F https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf
 $ENDCMP
 #
 $CMP LT0565xWK
