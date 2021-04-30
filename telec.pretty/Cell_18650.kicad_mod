@@ -1,4 +1,4 @@
-(module Cell_18650 (layer F.Cu) (tedit 60885B37)
+(module Cell_18650 (layer F.Cu) (tedit 608C56C6)
   (fp_text reference REF** (at 0 -2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -47,4 +47,9 @@
   (fp_poly (pts (xy 8 68.5) (xy -8 68.5) (xy -8 65) (xy 8 65)) (layer B.SilkS) (width 0.1))
   (pad 1 thru_hole roundrect (at 0 0) (size 15.24 2.54) (drill oval 10 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 2 thru_hole roundrect (at 0 67) (size 15.24 2.54) (drill oval 10 0.762) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
+  (model ${KICAD_USER_SYMBOL_DIR}/telec.3dshapes/18650_tabs.wrl
+    (offset (xyz 0 -65.75 9.5))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz 0 0 0))
+  )
 )
