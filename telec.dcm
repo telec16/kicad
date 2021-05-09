@@ -11,6 +11,12 @@ D Zero Drift, Digitally Programmable Instrumentation Amplifier
 K opamp
 $ENDCMP
 #
+$CMP BQ76942
+D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
+K lithium battery balance charge afe
+F http://www.ti.com/lit/gpn/bq76940
+$ENDCMP
+#
 $CMP DG468
 D Low Power, High Voltage SPST Analog Switches, normally OFF, 10Ohm Ron, TSOP-6
 K CMOS Analog Switch
@@ -44,15 +50,15 @@ D Serial DTMF Generator
 F http://www.farnell.com/datasheets/1738900.pdf
 $ENDCMP
 #
+$CMP HY2213-xB3y
+D 1 Cell Li Battery Charge Balance IC
+F https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf
+$ENDCMP
+#
 $CMP LD0565SxWK
 D 3 digit 7 segment LED, common cathode
 K display LED 7-segment
 F http://www.farnell.com/datasheets/2863914.pdf
-$ENDCMP
-#
-$CMP HY2213-xB3y
-D 1 Cell Li Battery Charge Balance IC
-F https://datasheet.lcsc.com/szlcsc/HYCON-Tech-HY2213-BB3A_C113632.pdf
 $ENDCMP
 #
 $CMP LT0565xWK
@@ -71,6 +77,12 @@ $CMP LT1224
 D Very High Speed Operational Amplifier, DIP-8/SOIC-8
 K single opamp
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1224.pdf
+$ENDCMP
+#
+$CMP LT1618
+D Constant-Current/Constant-Voltage 1.4MHz Step-Up DC/DC Converter
+K battery charger,led driver
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1618fas.pdf
 $ENDCMP
 #
 $CMP LTC1992
